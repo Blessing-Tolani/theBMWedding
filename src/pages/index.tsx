@@ -22,7 +22,7 @@ export default function Home() {
           <Image src={BukunmiMide} />
         </div>
         <div></div>
-        <div className=" md:flex mt-16 lg:mt-20">
+        <div className=" md:flex mt-16 lg:mt-20 px-2 sm:px-0">
           <div className=" md:pr-10 lg:pr-20 border-b-2 md:border-r-2 md:border-b-0 border-dashed border-primary">
             <p className="font-signika text-3xl sm:text-5xl ">SATURDAY</p>
             <p className="font-signika text-3xl sm:text-5xl pt-3 pb-5 md:pb-0">
