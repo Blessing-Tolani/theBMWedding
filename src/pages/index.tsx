@@ -22,10 +22,12 @@ export default function Home() {
           <Image src={BukunmiMide} />
         </div>
         <div></div>
-        <div className=" md:flex mt-16 lg:mt-20 px-2 sm:px-0">
-          <div className=" md:pr-10 lg:pr-20 border-b-2 md:border-r-2 md:border-b-0 border-dashed border-primary">
-            <p className="font-signika text-3xl sm:text-5xl ">SATURDAY</p>
-            <p className="font-signika text-3xl sm:text-5xl pt-3 pb-5 md:pb-0">
+        <div className=" flex flex-col md:flex-row mt-16 lg:mt-20  items-center">
+          <div className="md:pr-10 w-10/12 md:w-auto lg:pr-20 border-b-2 md:border-r-2 md:border-b-0 border-dashed border-primary">
+            <p className="font-signika text-3xl sm:text-4xl md:text-5xl ">
+              SATURDAY
+            </p>
+            <p className="font-signika text-3xl sm:text-4xl md:text-5xl pt-3 pb-5 md:pb-0">
               JULY 16, 2022
             </p>
             <p className="font-playfair mt-12 sm:text-lg hidden md:block">
@@ -36,11 +38,13 @@ export default function Home() {
             </p>
           </div>
           <div className="sm:text-lg md:pl-10 lg:pl-20">
-            <p className="font-signika text-3xl sm:text-5xl pt-5 md:pt-0">
+            <p className="font-signika text-3xl sm:text-4xl md:text-5xl pt-5 md:pt-0">
               ONDO CITY
             </p>
-            <p className="font-signika text-3xl sm:text-5xl pt-3">NIGERIA</p>
-            <p className="font-playfair mt-3 sm:mt-5">
+            <p className="font-signika text-3xl sm:text-4xl md:text-5xl pt-3">
+              NIGERIA
+            </p>
+            <p className="font-playfair mt-3 sm:mt-5 px-2 md:px-0">
               @ <br /> MOUNTAIN OF FIRE AND MIRACLE MINISTRIES <br /> SOUTHWEST
               12 REGIONAL HEADQUATERS <br /> BRIGADIER ADEMULEGUN ROAD, AJILO
             </p>
