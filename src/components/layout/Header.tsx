@@ -33,7 +33,7 @@ const navbars = [
   {
     name: "Our Story",
     description: "Speak directly to your customers in a more meaningful way.",
-    href: "/story",
+    href: "/our-story",
     icon: BookOpenIcon,
   },
   {
@@ -71,9 +71,10 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <p className="font-signika text-2xl sm:text-3xl md:text-4xl text-primary">
+            {/* <p className="font-signika text-2xl sm:text-3xl md:text-4xl text-primary">
               B & M
-            </p>
+            </p> */}
+            <img src="/bm-icon-2.png" className="w-16 h-16" />
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-primary focus:outline-none">
@@ -117,9 +118,10 @@ export default function Header() {
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="font-signika text-2xl sm:text-3xl md:text-4xl text-primary">
+                  {/* <p className="font-signika text-2xl sm:text-3xl md:text-4xl text-primary">
                     B & M
-                  </p>
+                  </p> */}
+                  <img src="/bm-icon-2.png" className="w-16 h-16" />
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-primary  focus:outline-none">

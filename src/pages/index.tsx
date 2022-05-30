@@ -1,7 +1,6 @@
 import PageLayout from "../components/layout";
 import Image from "next/image";
 import BukunmiMide from "../../public/bukunmi-mide.jpg";
-import ProposalRing from "../../public/ring.jpg";
 
 export default function Home() {
   let currentDate = new Date();
