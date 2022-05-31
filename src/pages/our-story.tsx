@@ -4,10 +4,10 @@ import React from "react";
 
 const OurStory = () => {
   return (
-    <PageLayout>
+    <PageLayout title="Our Story - theBMWedding">
       <div className="bg-darkBrown font-signika">
         <h1 className="text-center py-6 text-primary text-2xl sm:text-4xl">
-          HOW WE MET!
+          HOW WE MET
         </h1>
         <div className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider">
           <h1 className=" text-lg sm:text-xl">OLUWABUKUNMI:</h1>
@@ -137,7 +137,7 @@ const OurStory = () => {
           <p>
             Along the line, I knew within my spirit that she was the one God had
             prepared for me but I continued in prayers and waited to hear from
-            God. Eight months after the first day we met, I made my intentions
+            God. Seven months after the first day we met, I made my intentions
             known and she requested I give her time to pray about it. On the
             30th of January 2017, she said yes to courtship and we both agreed
             to give it time so she could give attention to her studies!

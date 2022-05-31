@@ -1,26 +1,17 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { useState } from "react";
+import { useRouter } from "next/router";
 import {
-  BookmarkAltIcon,
-  CalendarIcon,
-  ChartBarIcon,
   CursorClickIcon,
   MenuIcon,
-  PhoneIcon,
-  PlayIcon,
   HomeIcon,
   PhotographIcon,
   GiftIcon,
-  RefreshIcon,
   BookOpenIcon,
-  ShieldCheckIcon,
-  SupportIcon,
   ViewGridIcon,
   XIcon,
 } from "@heroicons/react/outline";
 import Link from "next/link";
-import { ChevronDownIcon } from "@heroicons/react/solid";
 
 const navbars = [
   {
@@ -65,7 +56,8 @@ const navbars = [
 ];
 
 export default function Header() {
-  const [activeTab, setActiveTab] = useState("Home");
+  const router = useRouter();
+  console.log(router.pathname);
   return (
     <Popover className="relative bg-darkBrown">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -84,11 +76,8 @@ export default function Header() {
               <Link href={item.href} key={item.name}>
                 <a
                   className={`text-primary hover:text-[#a97a4a] ${
-                    activeTab === item.name ? "font-bold" : "font-normal"
+                    router.pathname === item.href ? "font-bold" : "font-normal"
                   }`}
-                  onClick={() => {
-                    setActiveTab(item.name);
-                  }}
                 >
                   {item.name}
                 </a>
@@ -109,11 +98,11 @@ export default function Header() {
       >
         <Popover.Panel
           focus
-          className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10"
+          className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10 bg-darkBrown"
         >
-          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+          <div className="rounded-lg shadow-lg  bg-darkBrown divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between bg-darkBrown">
                 <div>
                   <img src="/bm-icon-2.png" className="w-16 h-16" />
                 </div>
@@ -124,17 +113,16 @@ export default function Header() {
                   </Popover.Button>
                 </div>
               </div>
-              <div className="mt-6">
+              <div className="mt-6 bg-darkBrown">
                 <nav className="grid gap-y-8">
                   {navbars.map((item) => (
                     <Link href={item.href} key={item.name}>
                       <a
                         className={`text-primary hover:text-[#a97a4a] -m-3 p-3 flex items-center rounded-md hover:bg-gray-50 ${
-                          activeTab === item.name ? "font-bold" : "font-normal"
+                          router.pathname === item.href
+                            ? "font-bold"
+                            : "font-normal"
                         }`}
-                        onClick={() => {
-                          setActiveTab(item.name);
-                        }}
                       >
                         <item.icon
                           className="flex-shrink-0 h-6 w-6 text-primary"
