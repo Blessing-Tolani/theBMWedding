@@ -6,7 +6,7 @@ const OurStory = () => {
   return (
     <PageLayout title="Our Story - theBMWedding">
       <div className="bg-darkBrown font-signika">
-        <h1 className="text-center py-6 text-primary text-2xl sm:text-4xl">
+        <h1 className="text-center py-3 sm:py-6 text-primary text-2xl sm:text-4xl">
           HOW WE MET
         </h1>
         <div className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider">
