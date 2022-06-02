@@ -6,15 +6,12 @@ export default function Home() {
   let currentDate = new Date();
   let weddingDate = Date.parse("16 July 2022 00:00:00 GMT");
   let differenceInTime = weddingDate - currentDate.getTime();
-
   let differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
-
-  console.log(weddingDate);
 
   return (
     <PageLayout title="theBMWedding">
       <div className="bg-darkBrown flex flex-col items-center pt-8 text-primary text-center">
-        <p className="font-signika text-3xl sm:text-4xl md:text-5xl pb-3 mb-5">
+        <p className="font-signika text-3xl sm:text-4xl md:text-5xl mb-5">
           Bukunmi & Mide
         </p>
         <div className="w-full md:w-11/12 lg:w-10/12 ">
@@ -53,7 +50,7 @@ export default function Home() {
             <p className="font-playfair mt-5 md:hidden">
               {differenceInDays} DAYS TO GO &#127881;
             </p>
-            <p className="font-playfair mt-5">#BMW&apos;22</p>
+            <p className="font-playfair mt-5">#BMW&apos;22 #ARainLoveStory</p>
           </div>
         </div>
       </div>

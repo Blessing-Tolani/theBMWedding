@@ -43,7 +43,7 @@ const navbars = [
     name: "Gift registry",
     description:
       "Build strategic funnels that will drive your customers to convert",
-    href: "/gift-registry",
+    href: "/gift",
     icon: GiftIcon,
   },
   {

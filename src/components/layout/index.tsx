@@ -1,9 +1,9 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Footer from "./footer";
 import Header from "./Header";
 import Head from "next/head";
 
-const PageLayout = (props: { children; title }) => {
+const PageLayout = (props: { children: ReactNode; title: string }) => {
   return (
     <>
       <Head>
