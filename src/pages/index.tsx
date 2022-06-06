@@ -1,13 +1,9 @@
 import PageLayout from "../components/layout";
 import Image from "next/image";
 import BukunmiMide from "../../public/bukunmi-mide.jpg";
+import GetNumberOfDays from "../components/GetNumberOfDays";
 
 export default function Home() {
-  let currentDate = new Date();
-  let weddingDate = Date.parse("16 July 2022 00:00:00 GMT");
-  let differenceInTime = weddingDate - currentDate.getTime();
-  let differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
-
   return (
     <PageLayout title="theBMWedding">
       <div className="bg-darkBrown flex flex-col items-center pt-8 text-primary text-center">
@@ -30,7 +26,7 @@ export default function Home() {
               COLOURS OF THE DAY <br /> CHAMPAGNE GOLD & WHITE
             </p>
             <p className="font-playfair mt-5 sm:text-lg hidden md:block">
-              {differenceInDays} DAYS TO GO &#127881;
+              {GetNumberOfDays()} DAYS TO GO &#127881;
             </p>
           </div>
           <div className="sm:text-lg md:pl-10 lg:pl-20">
@@ -48,7 +44,7 @@ export default function Home() {
               COLOURS OF THE DAY <br /> CHAMPAGNE GOLD & WHITE
             </p>
             <p className="font-playfair mt-5 md:hidden">
-              {differenceInDays} DAYS TO GO &#127881;
+              {GetNumberOfDays()} DAYS TO GO &#127881;
             </p>
             <p className="font-playfair mt-5">#BMW&apos;22 #ARainLoveStory</p>
           </div>

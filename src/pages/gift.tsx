@@ -1,11 +1,7 @@
 import PageLayout from "../components/layout";
+import GetNumberOfDays from "../components/GetNumberOfDays";
 
 const Gift = () => {
-  let currentDate = new Date();
-  let weddingDate = Date.parse("16 July 2022 00:00:00 GMT");
-  let differenceInTime = weddingDate - currentDate.getTime();
-  let differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
-
   return (
     <PageLayout title="Tit Bit - theBMWedding">
       <div className="bg-darkBrown text-primary">
@@ -19,7 +15,7 @@ const Gift = () => {
             <p>ONDO CITY, NIGERIA</p>
           </div>
           <p className="  text-sm sm:text-lg">
-            {differenceInDays} DAYS TO GO &#127881;
+            {GetNumberOfDays()} DAYS TO GO &#127881;
           </p>
         </div>
 

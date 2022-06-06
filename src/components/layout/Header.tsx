@@ -63,7 +63,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <img src="/bm-icon-2.png" className="w-16 h-16" />
+            <img src="/bm-icon.png" className="w-16 h-16" />
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-primary focus:outline-none">
@@ -104,7 +104,7 @@ export default function Header() {
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between bg-darkBrown">
                 <div>
-                  <img src="/bm-icon-2.png" className="w-16 h-16" />
+                  <img src="/bm-icon.png" className="w-16 h-16" />
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-transparent rounded-md p-2 inline-flex items-center justify-center text-primary  focus:outline-none">
