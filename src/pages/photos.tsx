@@ -1,5 +1,3 @@
-import PageLayout from "../components/layout";
-import GetNumberOfDays from "../components/GetNumberOfDays";
 import Link from "next/link";
 
 export default function photos() {
