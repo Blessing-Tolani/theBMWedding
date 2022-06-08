@@ -100,7 +100,7 @@ export default function Header() {
           focus
           className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10 bg-darkBrown"
         >
-          <div className="rounded-lg shadow-lg  bg-darkBrown divide-y-2 divide-gray-50">
+          <div className="rounded-lg shadow-lg  bg-darkBrown ">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between bg-darkBrown">
                 <div>
@@ -118,7 +118,7 @@ export default function Header() {
                   {navbars.map((item) => (
                     <Link href={item.href} key={item.name}>
                       <a
-                        className={`text-primary hover:text-[#a97a4a] -m-3 p-3 flex items-center rounded-md hover:bg-gray-50 ${
+                        className={`text-primary hover:text-[#a97a4a] -m-3 p-3 flex items-center rounded-md  ${
                           router.pathname === item.href
                             ? "font-bold"
                             : "font-normal"
