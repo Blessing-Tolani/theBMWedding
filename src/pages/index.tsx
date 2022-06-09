@@ -6,7 +6,7 @@ import GetNumberOfDays from "../components/GetNumberOfDays";
 export default function Home() {
   return (
     <PageLayout title="theBMWedding">
-      <div className="bg-darkBrown flex flex-col items-center pt-8 text-primary text-center">
+      <div className="bg-darkBrown flex flex-col items-center pt-3 sm:pt-8 text-primary text-center">
         <p className="font-signika text-3xl sm:text-4xl md:text-5xl mb-5">
           Bukunmi & Mide
         </p>

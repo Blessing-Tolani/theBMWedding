@@ -17,7 +17,7 @@ export default function AsoEbi() {
   ];
   return (
     <div className="bg-darkBrown text-primary">
-      <h1 className="text-center py-3 sm:py-6 text-3xl sm:text-4xl">ASO EBI</h1>
+      <h1 className="text-center py-3 sm:py-6 text-xl sm:text-4xl">ASO EBI</h1>
       <div className="flex justify-center">
         <div className="md:flex mt-3 sm:mt-6">
           <div className="">
@@ -35,23 +35,26 @@ export default function AsoEbi() {
         </div>
       </div>
       <div className="mt-10 md:mt-20">
-        <p className="font-signika text-3xl sm:text-3xl md:text-4xl pb-3 md:pb-6 text-center">
+        <p className="font-signika text-xl sm:text-3xl pb-3 md:pb-6 text-center">
           Asoebi Ladies
         </p>
       </div>
       <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-y-6 sm:gap-y-10 xl:gap-y-12 sm:px-8 md:pl-5 gap-x-8 lg:px-24 pb-3">
-        <div className="px-6 bg-[url('/asoebi/opesan.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover bg-center"></div>
-        <div className=" px-6 bg-[url('/asoebi/tama.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover"></div>
-        <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover"></div>
-        <div className=" px-6 bg-[url('/asoebi/tofunmi.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover"></div>
-        <div className="px-6 bg-[url('/asoebi/toyosi.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover"></div>
-        <div className="px-6 bg-[url('/asoebi/mercy.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover bg-center"></div>
-        <div className="px-6 bg-[url('/asoebi/derin.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover"></div>
-        <div className="px-6 bg-[url('/asoebi/folahanmi.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover "></div>
-        <div className="px-6 bg-[url('/asoebi/folakemi.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover"></div>
-        <div className="px-6 bg-[url('/asoebi/oyinkan.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover"></div>
-        <div className="px-6 bg-[url('/asoebi/temilorun.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover"></div>
-        <div className="px-6 bg-[url('/asoebi/motun.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover"></div>
+        <div className="px-6 bg-[url('/asoebi/opesan.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover bg-center rounded-lg"></div>
+        <div className=" px-6 bg-[url('/asoebi/tama.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className=" px-6 bg-[url('/asoebi/tofunmi.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/toyosi.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/mercy.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover  rounded-lgbg-center"></div>
+        <div className="px-6 bg-[url('/asoebi/derin.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/folahanmi.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/ife.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/folakemi.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/oyinkan.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/ire.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/motun.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/damola.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
+        <div className="px-6 bg-[url('/asoebi/joke.jpeg')] w-11/12 h-[300px] sm:w-[350px] sm:h-[360px] bg-cover rounded-lg"></div>
       </div>
     </div>
   );

@@ -52,13 +52,15 @@ const TitBit = () => {
   return (
     <PageLayout title="Tit Bit - theBMWedding">
       <div className="font-playfair bg-darkBrown px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider">
-        <h1 className="text-center sm:pt-4 text-primary text-2xl sm:text-4xl font-signika">
+        <h1 className="text-center sm:pt-4 text-primary text-xl sm:text-4xl font-signika">
           TIT-BIT
         </h1>
         {titbit.map((item) => (
           <div className="pt-6">
-            <p className="text-lg">{item.question}</p>
-            <p className="font-light pt-1">{item.answer}</p>
+            <p className="text-base sm:text-lg">{item.question}</p>
+            <p className="font-light pt-1 text-sm sm:text-base">
+              {item.answer}
+            </p>
           </div>
         ))}
       </div>

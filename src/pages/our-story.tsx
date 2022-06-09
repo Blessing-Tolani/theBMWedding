@@ -6,11 +6,11 @@ const OurStory = () => {
   return (
     <PageLayout title="Our Story - theBMWedding">
       <div className="bg-darkBrown font-signika">
-        <h1 className="text-center py-3 sm:py-6 text-primary text-2xl sm:text-4xl">
+        <h1 className="text-center py-3 sm:py-6 text-primary text-xl sm:text-4xl">
           HOW WE MET
         </h1>
-        <div className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider">
-          <h1 className=" text-lg sm:text-xl">OLUWABUKUNMI:</h1>
+        <div className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider text-sm sm:text-base">
+          <h1 className=" text-base sm:text-lg md:text-xl">OLUWABUKUNMI:</h1>
           <p className="pt-2">I met him in the Rain!</p>
           <p>Lol, so for real... our love story started in the rain.</p>
           <p className="pt-4 ">
@@ -58,8 +58,8 @@ const OurStory = () => {
           </p>
         </div>
 
-        <div className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider pt-10">
-          <h1 className=" text-lg sm:text-xl">OLUMIDE:</h1>
+        <div className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider pt-10 text-sm sm:text-base">
+          <h1 className="text-base sm:text-lg md:text-xl">OLUMIDE:</h1>
           <p className="pt-2">
             I started my postgraduate program at the Obafemi Awolowo University,
             Ile-Ife, Osun State in 2014 and the duration of my Master’s Degree

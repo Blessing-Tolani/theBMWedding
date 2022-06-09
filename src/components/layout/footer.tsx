@@ -1,6 +1,6 @@
 export default function Footer(props: { text: string }) {
   return (
-    <div className="w-full bg-darkBrown flex flex-col items-center text-primary pt-12 lg:pt-32">
+    <div className="w-full bg-darkBrown flex flex-col items-center text-primary pt-20 lg:pt-32">
       <div className=" sm:h-10 w-28 border-b-2 border-dashed border-primary flex justify-center ">
         <p className="font-signika sm:text-lg md:text-xl text-primary mb-1 sm:mb-0">
           B & M
