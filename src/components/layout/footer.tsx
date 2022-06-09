@@ -9,7 +9,6 @@ export default function Footer(props: { text: string }) {
       <p className="mt-1 sm:mt-2  font-playfair sm:text-lg">16.07.2022</p>
       <p className="mt-4 font-playfair w-11/12 text-center text-sm md:text-base md:w-auto">
         {props.text}
-        {/* For more details, please contact 09063146381 (WhatsApp only) */}
       </p>
       <p className="mt-6 md:mt-10 text-sm">
         <span>&#169;</span> 2022 theBMWedding

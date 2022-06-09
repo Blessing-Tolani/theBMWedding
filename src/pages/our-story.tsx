@@ -1,7 +1,5 @@
 import PageLayout from "../components/layout";
 
-import React from "react";
-
 const OurStory = () => {
   return (
     <PageLayout title="Our Story - theBMWedding">

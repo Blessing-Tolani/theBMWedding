@@ -37,7 +37,7 @@ const Gift = () => {
               However, if you do wish to send us cash gifts, we would also
               appreciate. Kindly use the account details below:
             </p>
-            <p className="pt-1">
+            <p className="pt-1 font-medium">
               2370500252 <br /> Tolu Akomolafe <br /> Zenith Bank
             </p>
             <p className="pt-4">We appreciate you!</p>
