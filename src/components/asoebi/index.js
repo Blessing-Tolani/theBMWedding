@@ -19,11 +19,11 @@ export default function AsoEbi() {
         </div>
       </div>
       <div className="mt-10 md:mt-20">
-        <p className="font-signika text-2xl md:text-4xl pb-3 md:pb-6 text-center">
+        <p className="font-signika text-xl md:text-4xl pb-3 md:pb-6 text-center">
           Asoebi Ladies
         </p>
       </div>
-      <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-y-10 xl:gap-y-16 sm:px-8 md:pl-5 gap-x-8 lg:px-24 pb-3">
+      <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-y-12 xl:gap-y-16 sm:px-8 md:pl-5 gap-x-8 lg:px-24 pb-3">
         <div className="rounded-lg bg-primary w-11/12  sm:w-[350px]">
           <div className="px-6 bg-[url('/asoebi/opesan.jpeg')] w-full h-[300px] sm:h-[360px] bg-cover bg-center rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika text-lg">

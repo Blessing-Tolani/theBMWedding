@@ -26,7 +26,7 @@ const Gift = () => {
               className=" w-auto h-auto md:w-[25rem] md:h-[30rem] lg:w-[25rem] lg:h-[35rem]"
             />
           </div>
-          <div className="md:w-1/2 font-playfair text-justify tracking-wider md:ml-6 lg:ml-10">
+          <div className="md:w-1/2 font-playfair text-justify tracking-wider md:ml-6 lg:ml-10 text-sm sm:text-base">
             <p className="pt-10 md:pt-0">Dear Family and Friends,</p>
             <p className="pt-4">
               Having you celebrate with us on our special day would be
@@ -37,7 +37,7 @@ const Gift = () => {
               However, if you do wish to send us cash gifts, we would also
               appreciate. Kindly use the account details below:
             </p>
-            <p className="pt-1 font-medium">
+            <p className="pt-1 font-medium text-base">
               2370500252 <br /> Tolu Akomolafe <br /> Zenith Bank
             </p>
             <p className="pt-4">We appreciate you!</p>
