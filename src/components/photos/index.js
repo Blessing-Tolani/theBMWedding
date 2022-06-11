@@ -14,12 +14,12 @@ export default function Gallery() {
           </p>
         </div>
         <hr className="w-10 lg:w-40 border-dashed border-primary  hidden lg:block" />
-        <div className="h-36 w-1 border-l border-dashed border-primary  block lg:hidden py-12"></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary  block lg:hidden"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px]">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
             JANUARY 30, 2017 <br /> My answer is YES&#128378;&#128378; but T&C
-            applies&#128580;
+            applies &#128580;
           </p>
         </div>
       </div>
@@ -36,7 +36,7 @@ export default function Gallery() {
           </p>
         </div>
         <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block order-2" />
-        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden order-2 py-12"></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden order-2"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px] order-1 lg:order-3">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
@@ -68,7 +68,7 @@ export default function Gallery() {
           </p>
         </div>
         <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block " />
-        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden py-12"></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden"></div>
 
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px]">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
@@ -90,7 +90,7 @@ export default function Gallery() {
           </p>
         </div>
         <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block order-2" />
-        <div className="h-36 w-1 border-l border-dashed border-primary  block lg:hidden order-2 py-12"></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary  block lg:hidden order-2"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px] order-1 lg:order-3">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
@@ -111,7 +111,7 @@ export default function Gallery() {
           </p>
         </div>
         <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block " />
-        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden py-12"></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px]">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
@@ -133,7 +133,7 @@ export default function Gallery() {
           </p>
         </div>
         <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block order-2" />
-        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden order-2 py-12"></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden order-2"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px] order-1 lg:order-3">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
