@@ -13,8 +13,8 @@ export default function Gallery() {
             This is our first picture together
           </p>
         </div>
-        <hr className="w-20 lg:w-40 border-dashed border-primary  hidden lg:block" />
-        <div className="h-36 w-2 border-l border-dashed border-primary  block lg:hidden"></div>
+        <hr className="w-10 lg:w-40 border-dashed border-primary  hidden lg:block" />
+        <div className="h-36 w-1 border-l border-dashed border-primary  block lg:hidden py-12"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px]">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
@@ -25,18 +25,18 @@ export default function Gallery() {
       </div>
 
       <div className="flex justify-center lg:justify-end lg:pr-[270px] py-12  ">
-        <div className="h-36 w-2 border-l border-dashed border-primary "></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary "></div>
       </div>
 
       <div className="flex flex-col lg:flex-row  lg:justify-around items-center gap-y-12 lg:gap-y-0">
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px] order-3 lg:order-1">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
-            OCTOBER 11, 2017 <br /> Thank God we do not look like our past!
+            OCTOBER 11, 2017 <br /> Thank God we do not look like our past
           </p>
         </div>
-        <hr className="w-20 lg:w-40  border-dashed border-primary  hidden lg:block order-2" />
-        <div className="h-36 w-2 border-l border-dashed border-primary block lg:hidden order-2"></div>
+        <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block order-2" />
+        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden order-2 py-12"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px] order-1 lg:order-3">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
@@ -52,7 +52,7 @@ export default function Gallery() {
       </div>
 
       <div className="flex justify-center lg:justify-start lg:pl-[270px] py-12 ">
-        <div className="h-36 w-2 border-l border-dashed border-primary "></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary "></div>
       </div>
 
       <div className="flex flex-col lg:flex-row  lg:justify-around items-center gap-y-12 lg:gap-y-0">
@@ -67,8 +67,8 @@ export default function Gallery() {
             Maryland, Lagos
           </p>
         </div>
-        <hr className="w-20 lg:w-40  border-dashed border-primary  hidden lg:block " />
-        <div className="h-36 w-2 border-l border-dashed border-primary block lg:hidden "></div>
+        <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block " />
+        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden py-12"></div>
 
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px]">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
@@ -79,7 +79,7 @@ export default function Gallery() {
       </div>
 
       <div className="flex justify-center lg:justify-end lg:pr-[270px] py-12 ">
-        <div className="h-36 w-2 border-l border-dashed border-primary "></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary "></div>
       </div>
 
       <div className="flex flex-col lg:flex-row  lg:justify-around items-center gap-y-12 lg:gap-y-0">
@@ -89,8 +89,8 @@ export default function Gallery() {
             AUGUST 12, 2019
           </p>
         </div>
-        <hr className="w-20 lg:w-40  border-dashed border-primary  hidden lg:block order-2" />
-        <div className="h-36 w-2 border-l border-dashed border-primary py-6 block lg:hidden order-2"></div>
+        <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block order-2" />
+        <div className="h-36 w-1 border-l border-dashed border-primary  block lg:hidden order-2 py-12"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px] order-1 lg:order-3">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
@@ -100,7 +100,7 @@ export default function Gallery() {
       </div>
 
       <div className="flex justify-center lg:justify-start lg:pl-[270px] py-12 ">
-        <div className="h-36 w-2 border-l border-dashed border-primary "></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary "></div>
       </div>
 
       <div className="flex flex-col lg:flex-row  lg:justify-around items-center gap-y-12 lg:gap-y-0">
@@ -110,8 +110,8 @@ export default function Gallery() {
             DECEMBER 23, 2019 <br /> First visit to Bukunmi's parent
           </p>
         </div>
-        <hr className="w-20 lg:w-40  border-dashed border-primary  hidden lg:block " />
-        <div className="h-36 w-2 border-l border-dashed border-primary py-6 block lg:hidden "></div>
+        <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block " />
+        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden py-12"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px]">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
@@ -122,7 +122,7 @@ export default function Gallery() {
       </div>
 
       <div className="flex justify-center lg:justify-end lg:pr-[270px] py-12 ">
-        <div className="h-36 w-2 border-l border-dashed border-primary "></div>
+        <div className="h-36 w-1 border-l border-dashed border-primary "></div>
       </div>
 
       <div className="flex flex-col lg:flex-row  lg:justify-around items-center gap-y-12 lg:gap-y-0">
@@ -132,8 +132,8 @@ export default function Gallery() {
             MARCH 23, 2021
           </p>
         </div>
-        <hr className="w-20 lg:w-40  border-dashed border-primary  hidden lg:block order-2" />
-        <div className="h-36 w-2 border-l border-dashed border-primary py-6 block lg:hidden order-2"></div>
+        <hr className="w-10 lg:w-40  border-dashed border-primary  hidden lg:block order-2" />
+        <div className="h-36 w-1 border-l border-dashed border-primary block lg:hidden order-2 py-12"></div>
         <div className="rounded-lg bg-primary w-11/12  lg:w-[400px] order-1 lg:order-3">
           <div className="px-6 bg-[url('/asoebi/taye.jpeg')] w-full h-[500px] lg:h-[400px] bg-cover rounded-t-lg"></div>
           <p className="py-4 text-darkBrown text-center font-signika ">
