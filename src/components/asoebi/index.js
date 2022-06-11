@@ -19,7 +19,7 @@ export default function AsoEbi() {
         </div>
       </div>
       <div className="mt-10 md:mt-20">
-        <p className="font-signika text-xl md:text-4xl pb-3 md:pb-6 text-center">
+        <p className="font-signika text-2xl md:text-4xl pb-3 md:pb-6 text-center">
           Asoebi Ladies
         </p>
       </div>
