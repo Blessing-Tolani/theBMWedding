@@ -2,6 +2,7 @@ import PageLayout from "../components/layout";
 import Image from "next/image";
 import BukunmiMide from "../../public/bukunmi-mide.jpg";
 import GetNumberOfDays from "../components/GetNumberOfDays";
+import Skeleton from "@mui/material/Skeleton";
 
 export default function Home() {
   return (
@@ -11,7 +12,16 @@ export default function Home() {
           Bukunmi & Mide
         </p>
         <div className="w-full md:w-11/12 lg:w-10/12 ">
-          <Image src={BukunmiMide} />
+          {BukunmiMide ? (
+            <Image src={BukunmiMide} />
+          ) : (
+            <Skeleton
+              variant="rectangular"
+              width={100}
+              height={400}
+              animation="wave"
+            />
+          )}
         </div>
         <div></div>
         <div className=" flex flex-col md:flex-row mt-16 lg:mt-20  items-center">

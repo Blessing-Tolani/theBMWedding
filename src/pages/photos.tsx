@@ -19,7 +19,7 @@ export default function Photos() {
             {GetNumberOfDays()} DAYS TO GO &#127881;
           </p>
         </div>
-        <div className=" py-3 sm:py-10 ">
+        <div className=" py-3 sm:py-16 lg:px-16 ">
           <Gallery />
         </div>
       </div>
