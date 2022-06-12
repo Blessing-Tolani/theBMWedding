@@ -22,6 +22,14 @@ export default function Photos() {
         <div className=" py-3 sm:py-16 lg:px-16 ">
           <Gallery />
         </div>
+        <div className="mt-12 font-signika">
+          <p className="text-3xl sm:text-4xl pb-3 text-center">
+            Pre wedding pictures
+          </p>
+          <p className="text-center mt-1 text-primary  text-2xl font-light">
+            Coming soon!!!
+          </p>
+        </div>
       </div>
     </PageLayout>
   );
