@@ -46,7 +46,7 @@ const Gift = () => {
       },
       {
         ease: "power2.out",
-        delay: 2,
+        delay: 0.5,
         y: 0,
         duration: 2,
 
