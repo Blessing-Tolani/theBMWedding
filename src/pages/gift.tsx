@@ -16,11 +16,11 @@ const Gift = () => {
       header.current,
       {
         opacity: 0,
-        x: 10,
+        y: 10,
       },
       {
         ease: "power2.out",
-        x: 0,
+        y: 0,
         duration: 2,
         opacity: 1,
       }
