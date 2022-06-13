@@ -1,13 +1,82 @@
 import PageLayout from "../components/layout";
+import { gsap } from "gsap/dist/gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { useRef, useEffect } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const OurStory = () => {
+  const bukunmi = useRef(null);
+  const olumide = useRef(null);
+  const header = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      header.current,
+      {
+        opacity: 0,
+        x: 10,
+      },
+      {
+        ease: "power2.out",
+        x: 0,
+        duration: 2,
+        opacity: 1,
+      }
+    );
+    gsap.fromTo(
+      bukunmi.current,
+      {
+        opacity: 0,
+        y: 40,
+      },
+      {
+        ease: "power2.out",
+        y: 0,
+        duration: 2,
+        opacity: 1,
+        delay: 1,
+        scrollTrigger: {
+          trigger: bukunmi.current,
+          toggleActions: "play none none reverse",
+          start: "20% bottom",
+        },
+      }
+    );
+    gsap.fromTo(
+      olumide.current,
+      {
+        opacity: 0,
+        y: 40,
+      },
+      {
+        ease: "power2.out",
+        y: 0,
+        duration: 2,
+
+        opacity: 1,
+        scrollTrigger: {
+          trigger: olumide.current,
+          toggleActions: "play none none reverse",
+          start: "20% bottom",
+        },
+      }
+    );
+  });
+
   return (
     <PageLayout title="Our Story - theBMWedding">
       <div className="bg-darkBrown font-signika">
-        <h1 className="text-center py-3 sm:py-6 text-primary text-xl sm:text-4xl">
+        <h1
+          ref={header}
+          className="text-center py-3 sm:py-6 text-primary text-xl sm:text-4xl"
+        >
           HOW WE MET
         </h1>
-        <div className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider text-sm sm:text-base">
+        <div
+          ref={bukunmi}
+          className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider text-sm sm:text-base"
+        >
           <h1 className=" text-base sm:text-lg md:text-xl">OLUWABUKUNMI:</h1>
           <p className="pt-2">I met him in the Rain!</p>
           <p>Lol, so for real... our love story started in the rain.</p>
@@ -56,7 +125,10 @@ const OurStory = () => {
           </p>
         </div>
 
-        <div className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider pt-10 text-sm sm:text-base">
+        <div
+          ref={olumide}
+          className="font-playfair px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider pt-10 text-sm sm:text-base"
+        >
           <h1 className="text-base sm:text-lg md:text-xl">OLUMIDE:</h1>
           <p className="pt-2">
             I started my postgraduate program at the Obafemi Awolowo University,

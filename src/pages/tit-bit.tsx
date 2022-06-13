@@ -1,4 +1,9 @@
 import PageLayout from "../components/layout";
+import { gsap } from "gsap/dist/gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { useRef, useEffect } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const titbit = [
   {
@@ -49,20 +54,63 @@ const titbit = [
 ];
 
 const TitBit = () => {
+  const header = useRef(null);
+  const text = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      header.current,
+      {
+        opacity: 0,
+        x: 10,
+      },
+      {
+        ease: "power2.out",
+        x: 0,
+        duration: 2,
+        opacity: 1,
+      }
+    );
+    gsap.fromTo(
+      text.current,
+      {
+        opacity: 0,
+        y: 40,
+      },
+      {
+        ease: "power2.out",
+        y: 0,
+        duration: 2,
+        delay: 1,
+        opacity: 1,
+        scrollTrigger: {
+          trigger: text.current,
+          toggleActions: "play none none reverse",
+          start: "20% bottom",
+        },
+      }
+    );
+  });
+
   return (
     <PageLayout title="Tit Bit - theBMWedding">
       <div className="font-playfair bg-darkBrown px-4 sm:px-8 md:px-16 lg:px-24 text-primary text-justify tracking-wider">
-        <h1 className="text-center sm:pt-4 text-primary text-xl sm:text-4xl font-signika">
+        <h1
+          ref={header}
+          className="text-center sm:pt-4 text-primary text-xl sm:text-4xl font-signika"
+        >
           TIT-BIT
         </h1>
-        {titbit.map((item) => (
-          <div className="pt-6">
-            <p className="text-base sm:text-lg">{item.question}</p>
-            <p className="font-light pt-1 text-sm sm:text-base">
-              {item.answer}
-            </p>
-          </div>
-        ))}
+        <div ref={text}>
+          {titbit.map((item) => (
+            <div className="pt-6">
+              <p className="text-base sm:text-lg">{item.question}</p>
+              <p className="font-light pt-1 text-sm sm:text-base">
+                {item.answer}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </PageLayout>
   );

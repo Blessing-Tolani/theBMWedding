@@ -15,7 +15,8 @@ const PageLayout = (props: { children: ReactNode; title: string }) => {
         <link rel="icon" type="image/png" sizes="32x32" href="/bm-icon-2.png" />
       </Head>
       <Header />
-      {props.children}
+      <main className="scroll-smooth">{props.children}</main>
+
       <Footer text="RSVP: 08060430001, 07066185225, 08134942551, 08064588676" />
     </>
   );
