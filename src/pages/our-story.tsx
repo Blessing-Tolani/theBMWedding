@@ -47,7 +47,7 @@ const OurStory = () => {
       olumide.current,
       {
         opacity: 0,
-        y: 40,
+        y: 20,
       },
       {
         ease: "power2.out",
@@ -58,7 +58,7 @@ const OurStory = () => {
         scrollTrigger: {
           trigger: olumide.current,
           toggleActions: "play none none reverse",
-          start: "10% bottom",
+          start: "20% bottom",
         },
       }
     );
