@@ -58,7 +58,7 @@ const OurStory = () => {
         scrollTrigger: {
           trigger: olumide.current,
           toggleActions: "play none none reverse",
-          start: "20% bottom",
+          start: "10% bottom",
         },
       }
     );
