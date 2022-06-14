@@ -74,7 +74,7 @@ export default function Home() {
         ease: "power2.out",
         y: 0,
         duration: 2,
-        delay: 1,
+        delay: 0.5,
         opacity: 1,
         scrollTrigger: {
           trigger: secondSubText.current,
