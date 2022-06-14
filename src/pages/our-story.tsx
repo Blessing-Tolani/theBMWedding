@@ -47,7 +47,7 @@ const OurStory = () => {
       olumide.current,
       {
         opacity: 0,
-        y: 40,
+        y: 20,
       },
       {
         ease: "power2.out",
@@ -96,17 +96,17 @@ const OurStory = () => {
             situated at the popular ‘White House’. As I was walking towards
             OAU’s White House, just after approaching Moremi’s gate, someone
             tapped on my left shoulder and asked if he could share my umbrella.
-            Well, here’s a tall, dark and handsome young man, so why not
-            &#128513;. I got to the ATM, he requested my contact, I obliged and
-            we both went our different ways.
+            Well, he’s a tall, dark and handsome young man, so why not. I got to
+            the ATM, he requested my contact, I obliged and we both went our
+            different ways.
           </p>
           <p className="pt-4">
             A week after I matriculated, my phone was stolen so I lost his
             contact and we didn’t know much about each other, he also didn't
             care to know my hostel/room number, but he knew I read every night
             at the 'oven' lecture theatre at the White House (as a part one
-            student aspiring to have my ”dream 5.0 CGPA.. &#128516;). Unknown to
-            me, this man had been coming to White House to look for me.
+            student aspiring to have my ”dream 5.0 CGPA..). Unknown to me, this
+            man had been coming to White House to look for me.
           </p>
           <p className="py-4">
             Fortunately, we bumped into each other again a few weeks later at
@@ -117,11 +117,11 @@ const OurStory = () => {
           </p>
           <p>
             The journey of 5 years plus has been an amazing one with my UMBRELLA
-            boy &#128513;
+            boy.
           </p>
           <p className="pt-4">
             P.S: I have the world's kindest, sweetest, calmest and most amazing
-            man all to myself &#128525;
+            man all to myself.
           </p>
         </div>
 
@@ -169,8 +169,8 @@ const OurStory = () => {
             it’s used when an old student is trying to prey on the naivety of a
             new student. So after I knew that she was a ‘fresher’, I wasn’t
             hoping to meet her again. A master’s student shouldn’t be ‘moving
-            to’ with a fresh (100L) student, no ‘nau’ &#128518;.. It felt
-            awkward (at that time).
+            to’ with a fresh (100L) student, no ‘nau’.. It felt awkward (at that
+            time).
           </p>
           <p className="py-4">
             Days went by, I didn’t reach out but every day as I walked around
@@ -223,7 +223,7 @@ const OurStory = () => {
             this beauty in my corner.
           </p>
           <p className="pt-2">
-            I promise to love and cherish you forever, Oluwabukunmi &#128525;
+            I promise to love and cherish you forever, Oluwabukunmi.
           </p>
         </div>
       </div>
