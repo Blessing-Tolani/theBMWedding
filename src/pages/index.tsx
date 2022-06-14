@@ -54,7 +54,6 @@ export default function Home() {
         ease: "power2.out",
         y: 0,
         duration: 2,
-        delay: 2,
         opacity: 1,
         scrollTrigger: {
           trigger: firstSubText.current,
@@ -98,7 +97,7 @@ export default function Home() {
           <Image src={BukunmiMide} />
         </div>
         <div></div>
-        <div className=" flex flex-col md:flex-row mt-16 lg:mt-20  items-center">
+        <div className=" flex flex-col md:flex-row mt-8 md:mt-16 lg:mt-20  items-center">
           <div
             ref={firstSubText}
             className="md:pr-10 w-10/12 md:w-auto lg:pr-20 border-b-2 md:border-r-2 md:border-b-0 border-dashed border-primary"
