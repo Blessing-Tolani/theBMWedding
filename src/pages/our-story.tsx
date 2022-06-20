@@ -112,7 +112,7 @@ const OurStory = () => {
             Fortunately, we bumped into each other again a few weeks later at
             another location where we had both come to read. So we exchanged
             contact again, became friends and spoke/chatted every other day.
-            Fast forward to January 30th 2016, after so many prayers and
+            Fast forward to January 30th 2017, after so many prayers and
             fasting, I agreed to start this thing called LOVE with him.
           </p>
           <p>
