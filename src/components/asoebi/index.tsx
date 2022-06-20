@@ -272,6 +272,15 @@ export default function AsoEbi() {
             Joke
           </p>
         </div>
+        <div
+          ref={asoebiLady}
+          className="rounded-lg bg-primary w-11/12  sm:w-[350px]"
+        >
+          <div className="px-6 bg-[url('/asoebi/hannah.jpeg')] w-full h-[300px] sm:h-[360px] bg-cover rounded-t-lg"></div>
+          <p className="py-4 text-darkBrown text-center font-signika text-lg">
+            Hannah
+          </p>
+        </div>
       </div>
     </div>
   );
