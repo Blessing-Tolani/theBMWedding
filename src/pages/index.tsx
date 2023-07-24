@@ -1,10 +1,10 @@
-import PageLayout from "../components/layout";
-import Image from "next/image";
-import BukunmiMide from "../../public/bukunmi-mide.jpg";
-import GetNumberOfDays from "../components/GetNumberOfDays";
-import { gsap } from "gsap/dist/gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import { useRef, useEffect } from "react";
+import PageLayout from '../components/layout';
+import Image from 'next/image';
+import BukunmiMide from '../../public/bukunmi-mide.jpg';
+import GetNumberOfDays from '../components/GetNumberOfDays';
+import { gsap } from 'gsap/dist/gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { useRef, useEffect } from 'react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,7 +22,7 @@ export default function Home() {
         y: 10,
       },
       {
-        ease: "power2.out",
+        ease: 'power2.out',
         y: 0,
         duration: 2,
         opacity: 1,
@@ -36,7 +36,7 @@ export default function Home() {
         y: 40,
       },
       {
-        ease: "power2.out",
+        ease: 'power2.out',
         delay: 1,
         y: 0,
         duration: 2,
@@ -51,15 +51,15 @@ export default function Home() {
         y: 40,
       },
       {
-        ease: "power2.out",
+        ease: 'power2.out',
         y: 0,
         duration: 2,
         delay: 2,
         opacity: 1,
         scrollTrigger: {
           trigger: firstSubText.current,
-          toggleActions: "play none none reverse",
-          start: "10% bottom",
+          toggleActions: 'play none none reverse',
+          start: '10% bottom',
         },
       }
     );
@@ -71,19 +71,21 @@ export default function Home() {
         y: 20,
       },
       {
-        ease: "power2.out",
+        ease: 'power2.out',
         y: 0,
         duration: 2,
         delay: 0.5,
         opacity: 1,
         scrollTrigger: {
           trigger: secondSubText.current,
-          toggleActions: "play none none reverse",
-          start: "10% bottom",
+          toggleActions: 'play none none reverse',
+          start: '10% bottom',
         },
       }
     );
   });
+
+  const noOfDays = GetNumberOfDays();
 
   return (
     <PageLayout title="theBMWedding">
@@ -113,7 +115,7 @@ export default function Home() {
               COLOURS OF THE DAY <br /> CHAMPAGNE GOLD & WHITE
             </p>
             <p className="font-playfair mt-5 sm:text-lg hidden md:block">
-              {GetNumberOfDays()} DAYS TO GO &#127881;
+              {noOfDays ? `${GetNumberOfDays()} DAYS TO GO &#127881` : 'Over'}
             </p>
           </div>
           <div ref={secondSubText} className="sm:text-lg md:pl-10 lg:pl-20">
@@ -131,7 +133,7 @@ export default function Home() {
               COLOURS OF THE DAY <br /> CHAMPAGNE GOLD & WHITE
             </p>
             <p className="font-playfair mt-5 md:hidden">
-              {GetNumberOfDays()} DAYS TO GO &#127881;
+              {noOfDays ? `${GetNumberOfDays()} DAYS TO GO &#127881` : 'Over'}
             </p>
             <p className="font-playfair mt-5">#BMW&apos;22 #ARainLoveStory</p>
           </div>
